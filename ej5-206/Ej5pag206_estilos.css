@@ -1,0 +1,158 @@
+/*ej 4, Eliminar el borde gris que muestran por defecto todos los elementos*/
+
+ul,
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+#contenedor {
+    width: 90%;
+    max-width: 900px;
+    width: expression(document.body.clientWidth > 901? "900px": "auto");
+    margin: 0 auto;
+}
+
+#noticias,
+#publicidad {
+    padding: 0.5em;
+    /* 0.5em de relleno en todos sus lados */
+    border: 1px solid #C5C5C5;
+    /*ej 4, borde de 1 píxel y gris claro (#C5C5C5)*/
+    background-color: #F8F8F8;
+    /*ej 5, tiene un color de fondo gris claro (#F8F8F8)*/
+}
+
+#publicidad {
+    margin-top: 1em;
+    /*ej 3, separado 1em de su elemento superior*/
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #CC6600;
+    /*ej 4, borde discontinuo de 1 píxel y de color #CC6600*/
+    background-color: #FFF6CD;
+    /*ej 5, color de fondo amarillo claro (#FFF6CD)*/
+}
+
+.articulo {
+    margin-bottom: 1em;
+    /*ej 3, una separación entre ellos de 1em*/
+}
+
+#pie {
+    background-color: #F8F8F8;
+    /*ej 5, tiene un color de fondo gris claro (#F8F8F8)*/
+    padding: 0.5em 0em;
+    /*ej 3, relleno en la zona superior e inferior*/
+    clear: both;
+    margin-top: 1em;
+    /*ej 3, margen superior de 1em*/
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
+    /*ej 4, un borde superior y otro inferior de 1 píxel y color gris claro #C5C5C5*/
+}
+
+#pie .enlaces {
+    float: left;
+}
+
+#pie .copyright {
+    float: right;
+}
+
+#cabecera {
+    clear: both;
+    padding: 1em;
+    /* ej3, relleno de 1em en todos los lados */
+}
+
+#cabecera h1 {
+    background-image: url(http://imagenesgraciosasparacelular.com/wp-content/uploads/2015/12/imagenes-animadas-graciosas-3.gif);
+    background-size: 100%;
+    /*logotipo del sitio se muestra mediante una imagen de fondo (gif) del elemento <h1> contenido en el elemento #cabecera*/
+}
+
+#menu {
+    clear: both;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    /* ej 3, relleno de 0.5em en todos los lados y un margen inferior de 0.5em */
+    border-bottom: 1px solid #004C99;
+    /*ej 4, borde inferior de 1 píxel y azul (#004C99)*/
+    background-image: url(https://i.pinimg.com/originals/db/95/83/db9583a472a51c3c39ca2a081a1092cc.gif);
+    /*ej 5, fondo del elemento #menu se construye mediante un gif*/
+    background-size: 100%;
+}
+
+#lateral {
+    float: left;
+    width: 20%;
+}
+
+#contenido {
+    float: right;
+    width: 78%;
+}
+
+#principal,
+#secundario {
+    float: left;
+    width: 73%;
+    padding: 0.5em;
+    /*ej 3, 0.5em de relleno en todos sus lados*/
+}
+
+#principal .articulo img,
+#secundario .articulo img {
+    width: 100px;
+    float: left;
+    margin: 0.5em;
+    /*ej, 3 imágenes de los artículos muestran un margen de 0.5em en todos sus lados*/
+}
+
+#secundario {
+    float: right;
+    width: 20%;
+    border: 1px solid #CC6600;
+    /*ej 4, lateral formado por el elemento #secundario muestra un borde de 1 píxel y de color #CC6600*/
+}
+
+#secundario h2 {
+    background-color: #DB905C;
+    padding: 0.2;
+    /*<h2> de #secundario muestran un color de fondo #DB905C y un pequeño padding de 0.2em*/
+}
+
+#logo {
+    float: left;
+}
+
+#buscador {
+    float: right;
+}
+
+#menu_principal li {
+    display: inline;
+    float: left;
+}
+
+
+/*# sourceMappingURL=Ej5pag206_estilos.css.map */

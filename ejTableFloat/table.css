@@ -1,0 +1,50 @@
+#principal {
+  margin: 0 auto;
+  width: 100%; }
+
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: #b5b4b4;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 2%; }
+
+#central {
+  width: 100%;
+  display: table;
+  border-spacing: 5px;
+  border-collapse: separate; }
+
+#left {
+  background-color: #3d3c3c;
+  width: 20%;
+  margin-right: 2%;
+  display: table-cell;
+  color: white; }
+
+#content {
+  display: table-cell;
+  background-color: #dad8d8;
+  width: 76%;
+  padding: 5px;
+  border-spacing: 5px;
+  border-collapse: separate; }
+  #content .row {
+    overflow: auto;
+    display: table-row; }
+    #content .row .box {
+      width: 20%;
+      background-color: white;
+      margin: 1%;
+      padding: 1%;
+      border: 1px solid grey;
+      display: table-cell; }
+
+.clear {
+  clear: both; }
+
+#footer {
+  background-color: #b5b4b4; }
+
+/*# sourceMappingURL=table.css.map */

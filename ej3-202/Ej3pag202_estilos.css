@@ -1,0 +1,86 @@
+ul, ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h1, h2, h3, p, form {
+  margin: 0;
+  padding: 0; }
+
+.clear {
+  clear: both; }
+
+img {
+  border: none; }
+
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto; }
+
+#noticias, #publicidad {
+  padding: 0.5em; }
+
+#publicidad {
+  margin-top: 1em; }
+
+#cabecera, #menu, #lateral {
+  border: 2px solid #777; }
+
+.articulo {
+  margin-bottom: 1em; }
+
+#pie {
+  border: 2px solid #777;
+  padding: 0.5em 0em;
+  clear: both;
+  margin-top: 1em; }
+  #pie .enlaces {
+    float: left; }
+  #pie .copyright {
+    float: right; }
+
+#cabecera {
+  clear: both;
+  padding: 1em; }
+
+#menu {
+  clear: both;
+  padding: 0.5em;
+  margin-bottom: 0.5em; }
+
+#lateral {
+  float: left;
+  width: 20%; }
+
+#contenido {
+  border: 2px solid #777;
+  float: right;
+  width: 78%; }
+
+#principal, #secundario {
+  float: left;
+  width: 73%;
+  border: 2px solid #777;
+  padding: 0.5em; }
+  #principal .articulo img, #secundario .articulo img {
+    width: 100px;
+    float: left;
+    margin: 0.5em; }
+
+#secundario {
+  float: right;
+  width: 20%; }
+
+#logo {
+  float: left; }
+
+#buscador {
+  float: right; }
+
+#menu_principal li {
+  display: inline;
+  float: left; }
+
+/*# sourceMappingURL=Ej3pag202_estilos.css.map */

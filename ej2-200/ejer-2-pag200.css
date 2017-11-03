@@ -1,0 +1,38 @@
+#titulo {
+  color: #60e1c0; }
+
+p strong {
+  color: red; }
+p a {
+  color: red; }
+p em {
+  color: blue; }
+p span.especial {
+  color: #6711f5; }
+
+table {
+  border-collapse: collapse; }
+  table td {
+    padding: 5px;
+    color: green;
+    border: 1px solid black; }
+  table tfoot, table th {
+    padding: 5px;
+    color: red;
+    border: 1px solid black; }
+
+#subtitulo, table caption {
+  color: blue; }
+
+.destacado, .especial, td > strong {
+  color: orange; }
+
+div#adicional p {
+  color: #407e50; }
+div#adicional a {
+  color: green; }
+
+#especial {
+  color: #e917dd; }
+
+/*# sourceMappingURL=ejer-2-pag200.css.map */

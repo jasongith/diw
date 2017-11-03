@@ -1,0 +1,42 @@
+#principal {
+  margin: 0 auto;
+  width: 100%; }
+
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: #b5b4b4;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 2%; }
+
+#central {
+  width: 100%; }
+
+#left {
+  float: left;
+  background-color: #646363;
+  width: 20%;
+  margin-right: 2%; }
+
+#content {
+  float: left;
+  background-color: #dad8d8;
+  width: 76%; }
+  #content .row {
+    overflow: auto; }
+    #content .row .box {
+      width: 20%;
+      background-color: white;
+      margin: 1%;
+      padding: 1%;
+      border: 1px solid grey;
+      float: left; }
+
+.clear {
+  clear: both; }
+
+#footer {
+  background-color: #b5b4b4; }
+
+/*# sourceMappingURL=float.css.map */

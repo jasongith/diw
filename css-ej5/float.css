@@ -1,0 +1,67 @@
+#uno {
+  background-color: #A936F1;
+  padding: 10px;
+  text-align: center;
+  width: 300px; }
+
+#dos {
+  position: absolute;
+  width: 300px;
+  padding: 10px;
+  background-color: #066;
+  text-align: right;
+  color: #ffc;
+  top: 100px;
+  left: 322px;
+  z-index: 1; }
+
+#tres {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  background-color: #033;
+  color: #ffc;
+  top: 10px;
+  left: 30px; }
+
+#cuatro {
+  position: static;
+  width: 300px;
+  padding: 10px;
+  background-color: #096;
+  color: #ffc;
+  top: 10px;
+  left: 30px; }
+
+#cinco {
+  position: absolute;
+  width: 800px;
+  height: 100px;
+  padding: 10px;
+  background-color: #666;
+  text-align: right;
+  color: #ffc;
+  top: 300px;
+  left: 500px; }
+
+#seis {
+  position: absolute;
+  width: 300px;
+  padding: 10px;
+  background-color: #111;
+  text-align: right;
+  color: #ffc;
+  top: 30px;
+  left: 5px; }
+
+#siete {
+  position: fixed;
+  width: 300px;
+  padding: 10px;
+  background-color: #0aa;
+  text-align: right;
+  color: #ffc;
+  top: 50px;
+  right: 50px; }
+
+/*# sourceMappingURL=float.css.map */

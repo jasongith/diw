@@ -1,0 +1,102 @@
+ul
+    margin: 0
+    padding: 0
+    list-style: none
+    li
+        @extend ul
+
+h1, h2, h3, p, form
+    margin: 0
+    padding: 0
+
+.clear
+    clear: both
+
+img
+    border: none
+
+#contenedor
+    width: 90%
+    max-width: 900px
+    width: expression(document.body.clientWidth > 901? "900px": "auto")
+    margin: 0 auto
+
+#noticias
+    padding: 0.5em
+    border: 1px solid #C5C5C5
+    background-color: #F8F8F8
+
+#publicidad
+    @extend #noticias
+    margin-top: 1em
+    border-width: 1px
+    border-style: dashed
+    border-color: #CC6600
+    background-color: #FFF6CD
+
+.articulo
+    margin-bottom: 1em 
+
+#pie
+    background-color: #F8F8F8
+    padding: 0.5em 0em
+    clear: both
+    margin-top: 1em
+    border-top: 1px solid #C5C5C5
+    border-bottom: 1px solid #C5C5C5    
+    .enlaces
+        float: left
+    .copyright
+        float: right
+
+#cabecera
+    clear: both
+    padding: 1em
+    h1
+        background-image: url(http://imagenesgraciosasparacelular.com/wp-content/uploads/2015/12/imagenes-animadas-graciosas-3.gif)
+        background-size: 100%
+
+#menu
+    clear: both
+    padding: 0.5em
+    margin-bottom: 0.5em
+    border-bottom: 1px solid #004C99
+    background-image: url(https://i.pinimg.com/originals/db/95/83/db9583a472a51c3c39ca2a081a1092cc.gif)
+    background-size: 100%
+
+#lateral
+    float: left
+    width: 20%
+
+#contenido
+    float: right
+    width: 78%
+    
+#principal
+    float: left
+    width: 73%
+    padding: 0.5em  
+    .articulo img
+        width: 100px
+        float: left
+        margin: 0.5em
+        
+#secundario
+    @extend #principal
+    float: right
+    width: 20%
+    border: 1px solid #CC6600
+    h2
+        background-color: #DB905C
+        padding: 0.2
+
+#logo
+    float: left
+
+#buscador
+    float: right
+
+#menu_principal li
+    display: inline
+    float: left
+

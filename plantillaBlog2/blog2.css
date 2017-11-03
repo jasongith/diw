@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  font: bold 20px Verdana, sans-serif; }
+
+h2 {
+  font: bold 14px Verdana, sans-serif; }
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup {
+  display: block; }
+
+body {
+  text-align: center; }
+
+#agrupar {
+  width: 960px;
+  margin: 15px auto;
+  padding: 1%;
+  text-align: left;
+  background-color: #ebeff0; }
+
+#cabecera {
+  background: linear-gradient(80deg, #ebeff0, #AAD5EB, #ebeff0); }
+  #cabecera h1 {
+    font: 3.5em "FuenteToGuapa";
+    text-shadow: 3px 3px 3px rgba(28, 110, 248, 0.5); }
+
+@font-face {
+  font-family: "FuenteToGuapa";
+  src: url("../otros/Modak-Regular.ttf"); }
+#menu {
+  padding: 5px 15px;
+  border-bottom: 2px solid #999999; }
+
+#menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana, sans-serif;
+  border: 2px solid transparent; }
+  #menu li:hover {
+    border: 2px solid #6AC1F5;
+    border-radius: 5px; }
+
+#contentido {
+  display: table; }
+
+#seccion {
+  float: left;
+  width: 660px;
+  margin: 20px;
+  display: table-cell; }
+
+#columna {
+  float: left;
+  width: 220px;
+  margin: 20px 0px;
+  padding: 20px;
+  display: table-cell; }
+  #columna ul {
+    margin-left: 0.4em;
+    list-style: none; }
+  #columna a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid transparent; }
+    #columna a:hover {
+      border: 2px solid #6AC1F5;
+      border-radius: 5px; }
+
+#usuario {
+  margin-left: 2.4em; }
+
+#pie {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999; }
+
+.articulos {
+  display: table;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 100, 0.2);
+  text-align: justify; }
+  .articulos img {
+    float: left;
+    width: 110px;
+    height: 110px; }
+  .articulos hgroup {
+    margin-top: 2%;
+    margin-bottom: 2%; }
+
+.txtArt {
+  display: table-row;
+  text-align: justify; }
+
+.contArt {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2; }
+
+.articulos:nth-of-type(even) {
+  background: #EAE6E6; }
+
+.articulos:nth-of-type(odd) {
+  background: #CAECF9; }
+
+.comentarios {
+  display: table-row;
+  margin-top: 5%;
+  border-top: 1.5px solid #B9B0B0; }
+  .comentarios header {
+    display: table-cell;
+    width: 50%; }
+  .comentarios article {
+    display: table-cell;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
+  .comentarios time {
+    font-size: 0.8em; }
+
+#titcom {
+  margin-top: 2%;
+  margin-bottom: 3%; }
+
+.coment {
+  background: #C8C8C6;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 10px; }
+
+article footer {
+  text-align: right; }
+
+time {
+  color: #999999;
+  opacity: 0.7; }
+
+/*# sourceMappingURL=blog2.css.map */
